@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Hola, This is My New Hugo Site</title>
-    <link>https://baudilio.github.org/posts/</link>
+    <link>https://baudilio.github.com/posts/</link>
     <description>Recent content in Posts on Hola, This is My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2020 15:10:36 -0600</lastBuildDate><atom:link href="https://baudilio.github.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Nov 2020 15:10:36 -0600</lastBuildDate><atom:link href="https://baudilio.github.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tres</title>
-      <link>https://baudilio.github.org/posts/tres/</link>
+      <link>https://baudilio.github.com/posts/tres/</link>
       <pubDate>Fri, 13 Nov 2020 15:10:36 -0600</pubDate>
       
-      <guid>https://baudilio.github.org/posts/tres/</guid>
+      <guid>https://baudilio.github.com/posts/tres/</guid>
       <description>Tres Este el el tercer blog.  </description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>https://baudilio.github.org/posts/my-first-post/</link>
+      <link>https://baudilio.github.com/posts/my-first-post/</link>
       <pubDate>Wed, 11 Nov 2020 08:21:09 -0600</pubDate>
       
-      <guid>https://baudilio.github.org/posts/my-first-post/</guid>
+      <guid>https://baudilio.github.com/posts/my-first-post/</guid>
       <description>Example of code snippet PROGRAM MAIN IMPLICIT NONE STOP 0 END PROGRAM MAIN Teje, can I write TCL snippets?
 # How about TCL? puts stderr &amp;#34;Hello Teje&amp;#34; Lists Bullet list:
  Start a line with an asterisk Food  Fruits  Oranges Apples      Numbered list:
