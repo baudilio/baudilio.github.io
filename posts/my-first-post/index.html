@@ -78,7 +78,10 @@
 <li>Three</li>
 </ol>
 <h1 id="tables">Tables</h1>
-<p>Tables aren&rsquo;t part of the core Markdown spec, but they are part of GFM and Markdown Here supports them. They are an easy way of adding tables to your email &ndash; a task that would otherwise require copy-pasting from another application.</p>
+<p>Tables aren&rsquo;t part of the core Markdown spec, but they are part of GFM
+and Markdown Here supports them. They are an easy way of adding tables
+to your email &ndash; a task that would otherwise require copy-pasting from
+another application.</p>
 <p>Colons can be used to align columns.</p>
 <table>
 <thead>
@@ -144,15 +147,15 @@ Also check out this <a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">La
 <p>$$
 \begin{aligned}
 &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \<br>
+= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\<br>
 &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-\phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \<br>
-\vdots &amp; \ddots &amp; \vdots \<br>
+\phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\<br>
+\vdots &amp; \ddots &amp; \vdots \\<br>
 \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
 \end{array} \right)
 \left( \begin{array}{c}
-y_1 \<br>
-\vdots \<br>
+y_1 \\<br>
+\vdots \\<br>
 y_n
 \end{array} \right)
 \end{aligned}
@@ -189,17 +192,29 @@ $$</p>
 <p>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$</p>
 <h2 id="more-examples">More Examples</h2>
 <p>A much more longer expression:</p>
-<!-- raw HTML omitted -->
+<p>\begin{align}
+\sqrt{37} &amp; = \sqrt{\frac{73^2-1}{12^2}} \\<br>
+&amp; = \sqrt{\frac{73^2}{12^2}\cdot\frac{73^2-1}{73^2}} \<br>
+&amp; = \sqrt{\frac{73^2}{12^2}}\sqrt{\frac{73^2-1}{73^2}} \<br>
+&amp; = \frac{73}{12}\sqrt{1 - \frac{1}{73^2}} \<br>
+&amp; \approx \frac{73}{12}\left(1 - \frac{1}{2\cdot73^2}\right)
+\end{align}</p>
 <p>And even more:</p>
-<p>ne can use matrices:</p>
-<p>$$T^{\mu\nu}=\begin{pmatrix}
-\varepsilon&amp;0&amp;0&amp;0\<br>
-0&amp;\varepsilon/3&amp;0&amp;0\<br>
-0&amp;0&amp;\varepsilon/3&amp;0\<br>
+<p>I can use matrices (BTA: Note the end of row &lsquo;\&rsquo; must be doubly-escaped)</p>
+<p>\begin{align}
+T^{\mu\nu} = \begin{pmatrix}
+\varepsilon &amp; 0 &amp; 0 &amp; 0 \\<br>
+0 &amp; \varepsilon/3 &amp;0&amp;0 \\<br>
+0 &amp; 0 &amp;\varepsilon/3 &amp;0 \\<br>
 0&amp;0&amp;0&amp;\varepsilon/3
-\end{pmatrix},$$</p>
+\end{pmatrix}
+\end{align}</p>
 <p>integrals:</p>
-<p>$$P_\omega={n_\omega\over 2}\hbar\omega,{1+R\over 1-v^2}\int\limits_{-1}^{1}dx,(x-v)|x-v|,$$</p>
+<p>$$P_\omega={n_\omega\over 2}\hbar\omega,{1+R\over 1-v^2}\int\limits_{-1}^{1}(x-v)|x-v|\ dx$$</p>
+<p>\begin{Bmatrix}
+1 &amp; 2 &amp; 3 \\<br>
+a &amp; b &amp; c
+\end{Bmatrix}</p>
 
 
 
