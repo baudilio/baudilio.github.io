@@ -6,6 +6,34 @@
     <description>Recent content in Tags on Hola, This is My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>©BTA - 2020</copyright><atom:link href="https://baudilio.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>©BTA - 2020</copyright>
+    <lastBuildDate>Tue, 22 Dec 2020 12:44:27 -0600</lastBuildDate><atom:link href="https://baudilio.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>sample</title>
+      <link>https://baudilio.github.io/tags/sample/</link>
+      <pubDate>Tue, 22 Dec 2020 12:44:27 -0600</pubDate>
+      
+      <guid>https://baudilio.github.io/tags/sample/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>training</title>
+      <link>https://baudilio.github.io/tags/training/</link>
+      <pubDate>Tue, 22 Dec 2020 12:44:27 -0600</pubDate>
+      
+      <guid>https://baudilio.github.io/tags/training/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tres</title>
+      <link>https://baudilio.github.io/tags/tres/</link>
+      <pubDate>Tue, 22 Dec 2020 12:44:27 -0600</pubDate>
+      
+      <guid>https://baudilio.github.io/tags/tres/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
